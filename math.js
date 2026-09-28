@@ -2,4 +2,8 @@ function cong(a, b) {
   return a + b;
 }
 
-module.exports = { cong };
+function tru(a, b) {
+  return a - b;
+}
+
+module.exports = { cong, tru };
